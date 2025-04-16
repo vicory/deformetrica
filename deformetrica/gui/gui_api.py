@@ -31,7 +31,7 @@ def call(name, params, estimator_callback=None, callback=lambda *args: None):
 corresp = {
     "kernel": {
         "torch": dfca.kernels.Type.TORCH,
-        "keops": dfca.kernels.Type.KEOPS
+        # "keops": dfca.kernels.Type.KEOPS
     },
 
     "optimize": {
